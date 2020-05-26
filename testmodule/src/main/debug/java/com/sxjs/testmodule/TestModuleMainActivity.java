@@ -19,7 +19,7 @@ public class TestModuleMainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.test_main_activity);
+        setContentView(R.layout.testmodule_test_main_activity);
         ButterKnife.bind(this);
 
     }

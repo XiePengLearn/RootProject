@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">common</string>
+    <!--<string name="app_name">common</string>-->
     <string name="loading_text">加载中…</string>
     <string name="icon">icon</string>
 
