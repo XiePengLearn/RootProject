@@ -8,8 +8,16 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:3.5.3'
         classpath 'com.jakewharton:butterknife-gradle-plugin:9.0.0-rc2'
+        classpath 'com.google.gms:google-services:4.2.0'  // Google Services plugin
+        classpath 'com.tencent.mm:AndResGuard-gradle-plugin:1.2.17'
+
+        // Add the Crashlytics Gradle plugin.
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.0.0-beta03'
+//        classpath 'com.google.protobuf:protobuf-gradle-plugin:0.8.6'
+
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
+
     }
 }
 
@@ -22,7 +30,8 @@ allprojects {
         maven {
             url 'https://oss.sonatype.org/content/repositories/snapshots'
         }
-
+        maven { url "https://dl.bintray.com/thelasterstar/maven/" }
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
     }
 }
 
@@ -32,8 +41,8 @@ task clean(type: Delete) {
 
 ext {
     // Sdk and tools
-    minSdkVersion = 14
-    targetSdkVersion = 25
+    minSdkVersion = 19
+    targetSdkVersion = 28
     compileSdkVersion = 28
     buildToolsVersion = '28.0.3'
 
@@ -49,7 +58,7 @@ ext {
     rxCacheGsonVersion = '0.0.3'
     espressoVersion = '2.2.2'
     gsonVersion = '2.8.0'
-    daggerVersion = '2.9'
+    daggerVersion = '2.27'
     butterKnifeVersion = '10.2.0'
     frescoVersion = '1.2.0'
     arouterVersion = '1.4.1'

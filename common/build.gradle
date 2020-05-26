@@ -17,6 +17,7 @@ android {
                 arguments = [ AROUTER_MODULE_NAME : project.getName() ]
             }
         }
+
     }
     buildTypes {
 
@@ -46,7 +47,7 @@ dependencies {
     //ButterKnife
     api "com.jakewharton:butterknife:$rootProject.butterKnifeVersion"
     //design
-    api 'com.google.android.material:material:1.0.0'
+    api 'com.google.android.material:material:1.1.0'
 
     //leak
     debugApi 'com.squareup.leakcanary:leakcanary-android:1.6.1'
@@ -63,6 +64,43 @@ dependencies {
     // router
     api "com.alibaba:arouter-api:$rootProject.arouterVersion"
     annotationProcessor "com.alibaba:arouter-compiler:$rootProject.arouterCompilerVersion"
+
+//Firebase 身份验证库
+    api"com.google.firebase:firebase-auth:19.3.1"
+    //Firebase 统计代码
+    api "com.google.firebase:firebase-analytics:17.4.1"
+    api "com.google.firebase:firebase-core:17.4.1"
+// Add the Firebase SDK for Crashlytics.
+    api "com.google.firebase:firebase-crashlytics:17.0.0"
+
+    //Firebase推送消息
+    api"com.google.firebase:firebase-messaging:20.1.7"
+    //facebook 登录
+    api "com.facebook.android:facebook-login:[5,6)"
+    api "com.facebook.android:facebook-share:[5,6)"
+//
+//
+//    // 统计图
+    api "com.github.PhilJay:MPAndroidChart:v3.0.3"
+//    api 'com.google.protobuf:protobuf-java:3.2.0'
+    api "pl.droidsonroids.gif:android-gif-drawable:1.2.18"
+    // 长链接
+    api "com.rabtman.wsmanager:wsmanager:1.0.2"
+
+
+    //leak
+//    debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.6.3'
+//    releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.6.3'
+    // Optional, if you use support library fragments:
+//    debugImplementation 'com.squareup.leakcanary:leakcanary-support-fragment:1.6.3'
+
+
+    //make sure to use the latest SDK version: https://mvnrepository.com/artifact/com.appsflyer/af-android-sdk
+    //AppsFlyer
+    api"com.appsflyer:af-android-sdk:5.0.0"
+    api"com.android.installreferrer:installreferrer:1.0"
+    //wheel
+    api "cn.aigestudio.wheelpicker:WheelPicker:1.1.3"
 
 
 }

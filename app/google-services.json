@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1028400602060",
+    "firebase_url": "https://casino-mini.firebaseio.com",
+    "project_id": "casino-mini",
+    "storage_bucket": "casino-mini.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028400602060:android:e627b2df8825f35f8d9b69",
+        "android_client_info": {
+          "package_name": "com.bang.casino"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028400602060-jtqjidgh44n7qbm1obo60ntkv0aaqedh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bang.casino",
+            "certificate_hash": "82a85abeb600e2968113ff0cd9ea275fcf93f823"
+          }
+        },
+        {
+          "client_id": "1028400602060-p5qkscj6ehie66h7h401p8eh4gc0og03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2kTH-ww7UYYGMT-Z2xFiiFElVSJ7kN-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028400602060-p5qkscj6ehie66h7h401p8eh4gc0og03.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

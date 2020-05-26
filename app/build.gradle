@@ -1,10 +1,12 @@
 apply plugin: 'com.android.application'
-
+apply plugin: 'com.google.gms.google-services'  // Google Play services Gradle plugin
+//apply plugin: 'AndResGuard'
+apply plugin: 'com.google.firebase.crashlytics'
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
     defaultConfig {
-        applicationId "com.sxjs.app"
+        applicationId "com.bang.casino"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -39,6 +41,7 @@ android {
             // 设置支持的SO库架构
             abiFilters 'armeabi' , 'x86'//, 'armeabi-v7a', 'x86_64', 'arm64-v8a'
         }
+        multiDexEnabled true
     }
 
     compileOptions {
@@ -69,5 +72,9 @@ dependencies {
     if(project.buildTest as boolean){
         implementation project(':testmodule')
     }
-    api project(':app_common')
+
+    def multidex_version = "2.0.1"
+    api "androidx.multidex:multidex:$multidex_version"
+
+
 }
