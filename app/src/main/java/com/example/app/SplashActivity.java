@@ -26,6 +26,7 @@ public class SplashActivity extends BaseActivity {
                     ARouter.getInstance().build("/main/MainActivity").greenChannel().navigation(SplashActivity.this);
                 }
                 finish();
+                
             }
         },2000);
     }
