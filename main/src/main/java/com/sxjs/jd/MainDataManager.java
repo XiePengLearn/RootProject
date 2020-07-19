@@ -27,6 +27,10 @@ import okhttp3.ResponseBody;
 
 public class MainDataManager extends BaseDataManager{
 
+    public static String KPI_ROOT_URL = "http://14.29.175.35:8091/api";//预生产环境接口
+    //通用模块路径
+    public static String GENERAL_REGISTER = "/cm/v1";
+
     public MainDataManager(DataManager mDataManager) {
         super(mDataManager);
     }
@@ -72,5 +76,44 @@ public class MainDataManager extends BaseDataManager{
         }).subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribeWith(consumer);
+    }
+
+    /**
+     * 获取注册数据
+     *
+     * @param mapHeaders    请求头
+     * @param mapParameters 请求参数
+     * @param consumer      consumer
+     * @return Disposable
+     */
+    public Disposable getRegisterData(Map<String, String> mapHeaders, Map<String, Object> mapParameters, DisposableObserver<ResponseBody> consumer) {
+        return changeIOToMainThread(getService(BaseApiService.class).executePostHeader
+                (KPI_ROOT_URL + GENERAL_REGISTER, mapParameters, mapHeaders), consumer);
+
+    }
+    /**
+     * 获取验证码
+     *
+     * @param mapHeaders    请求头
+     * @param mapParameters 请求参数
+     * @param consumer      consumer
+     * @return Disposable
+     */
+    public Disposable getRegisretCodeData(Map<String, String> mapHeaders, Map<String, Object> mapParameters, DisposableObserver<ResponseBody> consumer) {
+        return changeIOToMainThread(getService(BaseApiService.class).executePostHeader
+                (KPI_ROOT_URL + GENERAL_REGISTER, mapParameters, mapHeaders), consumer);
+
+    }
+    /**
+     * 获取登录数据
+     *
+     * @param mapHeaders    请求头
+     * @param mapParameters 请求参数
+     * @param consumer      consumer
+     * @return Disposable
+     */
+    public Disposable getLoginData(Map<String, String> mapHeaders, Map<String, Object> mapParameters, DisposableObserver<ResponseBody> consumer) {
+        return changeIOToMainThread(getService(BaseApiService.class).executePostHeader
+                (KPI_ROOT_URL + GENERAL_REGISTER, mapParameters, mapHeaders), consumer);
     }
 }

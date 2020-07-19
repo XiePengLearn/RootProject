@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:id="@+id/ll_register_root_view"
+    android:orientation="vertical">
+
+    <include layout="@layout/jkx_public_title_home" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+
+
+        <EditText
+            android:id="@+id/reg_phone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:cursorVisible="true"
+            android:textCursorDrawable="@drawable/text_cursor"
+            android:background="@drawable/bg_register_edit"
+            android:hint="填写手机号"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:paddingLeft="10dp"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/reg_verification_code"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:cursorVisible="true"
+                android:textCursorDrawable="@drawable/text_cursor"
+                android:background="@drawable/bg_register_edit"
+                android:hint="短信验证码"
+                android:inputType="phone"
+                android:maxLength="6"
+                android:paddingLeft="10dp"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_getValidateCode"
+                android:layout_width="100dp"
+                android:layout_height="38dp"
+                android:layout_marginLeft="12dp"
+                android:background="@drawable/bg_shap_button_1"
+                android:text="验证码"
+                android:textColor="@color/bg_withe"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+
+        <EditText
+            android:id="@+id/reg_password"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:cursorVisible="true"
+            android:textCursorDrawable="@drawable/text_cursor"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_register_edit"
+            android:hint="6-20位登录密码"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/reg_again_password"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:cursorVisible="true"
+            android:textCursorDrawable="@drawable/text_cursor"
+            android:background="@drawable/bg_register_edit"
+            android:hint="图形验证码"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:textSize="14sp" />
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/reg_btn_register"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_shap_button_1"
+                android:text="@string/regist_regist"
+                android:textColor="#fff"
+                android:textSize="16sp" />
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
