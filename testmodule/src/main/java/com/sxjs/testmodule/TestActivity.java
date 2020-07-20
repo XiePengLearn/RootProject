@@ -5,8 +5,8 @@ import android.os.Bundle;
 import androidx.annotation.Nullable;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
-import com.sxjs.common.base.BaseActivity;
-import com.sxjs.common.base.rxjava.ErrorDisposableObserver;
+import com.xiaoanjujia.common.base.BaseActivity;
+import com.xiaoanjujia.common.base.rxjava.ErrorDisposableObserver;
 
 import butterknife.ButterKnife;
 import okhttp3.ResponseBody;

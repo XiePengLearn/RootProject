@@ -4,7 +4,7 @@
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
-    <com.sxjs.common.widget.imageview.ExpandImageView
+    <com.xiaoanjujia.common.widget.imageview.ExpandImageView
         android:id="@+id/show_event_fill_up"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

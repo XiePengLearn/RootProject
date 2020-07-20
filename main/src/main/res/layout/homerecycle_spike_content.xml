@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.sxjs.common.widget.percentlayout.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.xiaoanjujia.common.widget.percentlayout.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
-    <com.sxjs.common.widget.percentlayout.PercentRelativeLayout
+    <com.xiaoanjujia.common.widget.percentlayout.PercentRelativeLayout
         android:layout_marginTop="10dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
@@ -14,7 +14,7 @@
         android:layout_height="0dp"
         app:layout_aspectRatio="100%"
         >
-        <com.sxjs.common.widget.imageview.ExpandImageView
+        <com.xiaoanjujia.common.widget.imageview.ExpandImageView
             android:id="@+id/spike_ware_img"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -31,7 +31,7 @@
             android:visibility="gone"
             android:background="@drawable/home_love_life_subscript_gradient_bg"
             />
-    </com.sxjs.common.widget.percentlayout.PercentRelativeLayout>
+    </com.xiaoanjujia.common.widget.percentlayout.PercentRelativeLayout>
 
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -65,4 +65,4 @@
         android:layout_marginBottom="10dp"
         />
 
-</com.sxjs.common.widget.percentlayout.PercentLinearLayout>
+</com.xiaoanjujia.common.widget.percentlayout.PercentLinearLayout>

@@ -39,7 +39,7 @@
             />
 
     </RelativeLayout>
-    <com.sxjs.common.widget.headerview.JDHeaderView
+    <com.xiaoanjujia.common.widget.headerview.JDHeaderView
         android:id="@+id/find_pull_refresh_header"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -58,6 +58,6 @@
             android:overScrollMode="never"
             android:scrollbars="none" />
 
-    </com.sxjs.common.widget.headerview.JDHeaderView>
+    </com.xiaoanjujia.common.widget.headerview.JDHeaderView>
 
 </LinearLayout>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.sxjs.common.widget.aspect_ratio_layout.AspectRatioLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.xiaoanjujia.common.widget.aspect_ratio_layout.AspectRatioLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="horizontal"
     android:layout_width="match_parent"
@@ -93,4 +93,4 @@
         android:src="@drawable/arrow_rt"
         />
 
-</com.sxjs.common.widget.aspect_ratio_layout.AspectRatioLinearLayout>
+</com.xiaoanjujia.common.widget.aspect_ratio_layout.AspectRatioLinearLayout>

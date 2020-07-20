@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:ignore="ResourceName">
 
-    <!--<com.sxjs.common.widget.flexboxlayout.FlexboxLayout
+    <!--<com.xiaoanjujia.common.widget.flexboxlayout.FlexboxLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:alignItems="center"
@@ -70,9 +70,9 @@
             android:padding="10dp"
             android:text="快乐的活神仙活神仙"
             app:layout_flexGrow="1" />
-    </com.sxjs.common.widget.flexboxlayout.FlexboxLayout>
+    </com.xiaoanjujia.common.widget.flexboxlayout.FlexboxLayout>
 
-    <com.sxjs.common.widget.flexboxlayout.FlexboxLayout
+    <com.xiaoanjujia.common.widget.flexboxlayout.FlexboxLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
@@ -106,20 +106,20 @@
             android:padding="10dp"
             android:text="中国" />
 
-    </com.sxjs.common.widget.flexboxlayout.FlexboxLayout>
+    </com.xiaoanjujia.common.widget.flexboxlayout.FlexboxLayout>
 
-    <com.sxjs.common.widget.imageview.CircleImageView
+    <com.xiaoanjujia.common.widget.imageview.CircleImageView
         android:layout_width="60dp"
         android:layout_height="60dp"
         app:backgroundImage="@drawable/cat"
         app:fadeDuration="300" />
 
-    <com.sxjs.common.widget.imageview.GifImageView
+    <com.xiaoanjujia.common.widget.imageview.GifImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
         app:resId="@drawable/timg" />
 
-    <com.sxjs.common.widget.imageview.ExpandImageView
+    <com.xiaoanjujia.common.widget.imageview.ExpandImageView
         android:id="@+id/expand_img"
         android:layout_width="100dp"
         android:layout_height="120dp"

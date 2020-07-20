@@ -5,8 +5,8 @@
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.sxjs.jd.composition.main.MainActivity">
-    <com.sxjs.common.widget.bottomnavigation.BottomNavigationBar
+    tools:context="com.xiaoanjujia.home.composition.main.MainActivity">
+    <com.xiaoanjujia.common.widget.bottomnavigation.BottomNavigationBar
         android:layout_alignParentBottom="true"
         android:id="@+id/bottom_navigation_bar1"
         android:layout_width="match_parent"

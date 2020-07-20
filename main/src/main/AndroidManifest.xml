@@ -19,7 +19,7 @@
         android:persistent="true"
         android:supportsRtl="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name="com.sxjs.jd.composition.main.MainActivity"
+        <activity android:name="com.xiaoanjujia.home.composition.main.MainActivity"
             android:screenOrientation="portrait">
 
         </activity>
@@ -50,11 +50,11 @@
             android:value="640" />
 
         <activity
-            android:name=".composition.login.login.LoginActivity"
+            android:name="com.xiaoanjujia.home.composition.login.login.LoginActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".composition.login.register.RegisterActivity"
+            android:name="com.xiaoanjujia.home.composition.login.register.RegisterActivity"
             android:screenOrientation="portrait" />
     </application>
 

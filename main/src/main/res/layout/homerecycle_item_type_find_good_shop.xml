@@ -6,7 +6,7 @@
     android:background="@color/white"
 
     >
-    <com.sxjs.common.widget.percentlayout.PercentRelativeLayout
+    <com.xiaoanjujia.common.widget.percentlayout.PercentRelativeLayout
         android:layout_width="0dp"
         android:layout_weight="1"
         android:layout_height="wrap_content"
@@ -32,7 +32,7 @@
             />
 
 
-            <com.sxjs.common.widget.imageview.ExpandImageView
+            <com.xiaoanjujia.common.widget.imageview.ExpandImageView
                 android:layout_below="@+id/type_find_good_shop_item_one_sub_title"
                 android:id="@+id/type_find_good_shop_item_one_img1"
                 android:layout_width="0dp"
@@ -40,7 +40,7 @@
                 android:layout_height="wrap_content"
                 app:viewAspectRatio="1"
                 />
-            <com.sxjs.common.widget.imageview.ExpandImageView
+            <com.xiaoanjujia.common.widget.imageview.ExpandImageView
                 android:layout_below="@+id/type_find_good_shop_item_one_sub_title"
                 android:id="@+id/type_find_good_shop_item_one_img2"
                 android:layout_toRightOf="@+id/type_find_good_shop_item_one_img1"
@@ -61,12 +61,12 @@
             android:textColor="@color/white"
             android:background="@color/black_bg"/>
 
-    </com.sxjs.common.widget.percentlayout.PercentRelativeLayout>
+    </com.xiaoanjujia.common.widget.percentlayout.PercentRelativeLayout>
     <View
         android:layout_width="1dp"
         android:layout_height="match_parent"
         android:background="@color/lineColor"/>
-    <com.sxjs.common.widget.percentlayout.PercentRelativeLayout
+    <com.xiaoanjujia.common.widget.percentlayout.PercentRelativeLayout
         android:layout_width="0dp"
         android:layout_weight="1"
         android:padding="8dp"
@@ -91,7 +91,7 @@
 
 
 
-            <com.sxjs.common.widget.imageview.ExpandImageView
+            <com.xiaoanjujia.common.widget.imageview.ExpandImageView
                 android:layout_below="@+id/type_find_good_shop_item_two_sub_title"
                 android:id="@+id/type_find_good_shop_item_two_img1"
                 android:layout_width="0dp"
@@ -99,7 +99,7 @@
                 android:layout_height="wrap_content"
                 app:viewAspectRatio="1"
                 />
-            <com.sxjs.common.widget.imageview.ExpandImageView
+            <com.xiaoanjujia.common.widget.imageview.ExpandImageView
                 android:layout_below="@+id/type_find_good_shop_item_two_sub_title"
                 android:id="@+id/type_find_good_shop_item_two_img2"
                 android:layout_toRightOf="@+id/type_find_good_shop_item_two_img1"
@@ -119,7 +119,7 @@
             android:textSize="10sp"
             android:textColor="@color/white"
             android:background="@color/black_bg"/>
-    </com.sxjs.common.widget.percentlayout.PercentRelativeLayout>
+    </com.xiaoanjujia.common.widget.percentlayout.PercentRelativeLayout>
 
 
 </LinearLayout>

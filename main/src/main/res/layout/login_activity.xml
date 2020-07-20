@@ -38,7 +38,7 @@
                     android:layout_marginRight="@dimen/dp_27"
                     android:src="@drawable/phone_icon" />
 
-                <com.sxjs.common.widget.ClearEditText
+                <com.xiaoanjujia.common.widget.ClearEditText
                     android:id="@+id/edit_account"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/dp_30"
@@ -80,7 +80,7 @@
                     android:layout_marginRight="@dimen/dp_27"
                     android:src="@drawable/password_icon" />
 
-                <com.sxjs.common.widget.ClearEditText
+                <com.xiaoanjujia.common.widget.ClearEditText
                     android:id="@+id/edit_password"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/dp_30"

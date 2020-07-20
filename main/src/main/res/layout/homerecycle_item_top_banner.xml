@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <com.sxjs.common.widget.autoscrollviewpager.BGABanner
+    <com.xiaoanjujia.common.widget.autoscrollviewpager.BGABanner
         android:id="@+id/banner"
 
         android:layout_width="match_parent"

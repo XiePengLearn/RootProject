@@ -67,7 +67,7 @@
  # =====================fresco================
 
  #转换JSON的JavaBean，类成员名称保护，使其不被混淆
- -keepclassmembernames class com.sxjs.jd.entities.** { *; }
+ -keepclassmembernames class com.xiaoanjujia.home.entities.** { *; }
 
  #auto view pager
- -keepclassmembernames class com.sxjs.common.widget.autoscrollviewpager.** { *; }
+ -keepclassmembernames class com.xiaoanjujia.common.widget.autoscrollviewpager.** { *; }

@@ -1,7 +1,7 @@
 package com.sxjs.testmodule;
 
-import com.sxjs.common.model.BaseDataManager;
-import com.sxjs.common.model.DataManager;
+import com.xiaoanjujia.common.model.BaseDataManager;
+import com.xiaoanjujia.common.model.DataManager;
 
 import io.reactivex.disposables.Disposable;
 import io.reactivex.observers.DisposableObserver;

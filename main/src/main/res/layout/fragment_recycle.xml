@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-<com.sxjs.common.widget.headerview.JDHeaderView
+<com.xiaoanjujia.common.widget.headerview.JDHeaderView
     android:id="@+id/rotate_header_list_view_frame"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -23,7 +23,7 @@
         android:overScrollMode="never"
         android:scrollbars="none" />
 
-</com.sxjs.common.widget.headerview.JDHeaderView>
+</com.xiaoanjujia.common.widget.headerview.JDHeaderView>
     <FrameLayout
         android:id="@+id/home_title_bar_layout"
         android:layout_width="match_parent"

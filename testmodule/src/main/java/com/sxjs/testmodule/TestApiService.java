@@ -1,6 +1,6 @@
 package com.sxjs.testmodule;
 
-import com.sxjs.common.model.http.BaseApiService;
+import com.xiaoanjujia.common.model.http.BaseApiService;
 
 import io.reactivex.Observable;
 import okhttp3.ResponseBody;

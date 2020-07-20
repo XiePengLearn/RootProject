@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.sxjs.common.widget.aspect_ratio_layout.AspectRatioRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.xiaoanjujia.common.widget.aspect_ratio_layout.AspectRatioRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:background="@drawable/home_jd_bulletin_corner_bg"
@@ -10,7 +10,7 @@
     app:Layout_viewAspectRatio="9"
     >
 
-    <com.sxjs.common.widget.imageview.ExpandImageView
+    <com.xiaoanjujia.common.widget.imageview.ExpandImageView
         android:id="@+id/title_img"
         android:layout_width="73dp"
         android:layout_height="16dp"
@@ -19,7 +19,7 @@
         android:background="@drawable/jd_news_tit"
         />
 
-    <com.sxjs.common.widget.view_switcher.UpDownViewSwitcher
+    <com.xiaoanjujia.common.widget.view_switcher.UpDownViewSwitcher
         android:layout_toRightOf="@+id/title_img"
         android:layout_toLeftOf="@+id/more_ll"
         android:id="@+id/home_view_switcher"
@@ -55,4 +55,4 @@
     </LinearLayout>
 
 
-</com.sxjs.common.widget.aspect_ratio_layout.AspectRatioRelativeLayout>
+</com.xiaoanjujia.common.widget.aspect_ratio_layout.AspectRatioRelativeLayout>
