@@ -1,7 +1,7 @@
 <resources>
     <!--<string name="app_name">京东</string>-->
     <string name="login_remember_password">记住密码</string>
-    <string name="login_forget_password">忘记密码?</string>
+    <string name="login_forget_password">忘记密码</string>
     <string name="login_entry">登    录</string>
     <string name="regist_regist">注册</string>
     <string name="Registered_successfully">注册成功</string>
