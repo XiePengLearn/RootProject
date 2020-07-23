@@ -15,7 +15,7 @@ import android.util.DisplayMetrics;
  */
 public class DeviceUtils {
     public static String getAndroidVer() {
-        return "android_" + android.os.Build.VERSION.RELEASE;
+        return android.os.Build.VERSION.RELEASE;
     }
 
 
@@ -36,7 +36,7 @@ public class DeviceUtils {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return packInfo == null ? "1.0" : packInfo.versionName;
+        return packInfo == null ? "1" : packInfo.versionCode+"";
     }
 
     /**
